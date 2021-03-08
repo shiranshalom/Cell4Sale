@@ -1,0 +1,41 @@
+
+.bg-gradient-primary {
+    background-image:  linear-gradient(rgb(226 233 234) 40%, rgb(87 90 137) 10%) ;
+}
+
+.bg-register-image {
+    background: url('https://svgshare.com/i/N4U.svg');
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.btn-primary {
+    color: #fff ;
+    background-color: #71aebd ;
+    border-color: #71aebd;
+}
+
+a {
+    color: #71aebd;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn-google {
+    color: #fff;
+    background-color: #4285F4;
+    border-color: #fff;
+}
+
+
+@media screen and (max-width: 770px) {
+
+
+    #recaptchaContainer{
+         transform:scale(0.7);
+         transform-origin:0 0;
+    }
+    
+    }
+    
+    

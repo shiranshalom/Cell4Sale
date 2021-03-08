@@ -1,0 +1,44 @@
+.bg-password-image {
+    background: url(https://svgshare.com/i/NA7.svg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.bg-gradient-primary {
+    background-image:  linear-gradient(rgb(226 233 234) 40%, rgb(63 61 86) 10%) ;
+}
+
+
+.btn-primary {
+    color: #fff ;
+    background-color: #71aebd ;
+    border-color: #71aebd;
+}
+
+a {
+    color: #71aebd;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.bg-password-update-image{
+
+    background: url(https://svgshare.com/i/NCq.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 770px) {
+
+
+    #recaptchaContainer{
+         transform:scale(0.7);
+         transform-origin:0 0;
+    }
+    
+    }
+    
+    

@@ -1,0 +1,67 @@
+.bg-gradient-primary {
+    
+     background-image:  linear-gradient(rgb(226 233 234) 40%, rgb(112 109 146) 10%) ;
+}
+
+.bg-login-image{
+     background: url(https://svgshare.com/i/N9d.svg);
+     background-position: center;
+     background-size: 90%;
+     background-repeat: no-repeat;
+}
+
+.btn-primary {
+     color: #fff ;
+     background-color: #71aebd ;
+     border-color: #71aebd;
+}
+
+a {
+     color: #71aebd;
+     text-decoration: none;
+     background-color: transparent;
+ }
+
+ .btn-google {
+     color: #fff;
+     background-color: #4285F4;
+     border-color: #fff;
+ }
+
+ .bg-emailverification-image{
+     background: url(https://svgshare.com/i/NDE.svg);
+     background-position: center;
+     background-size: 90%;
+     background-repeat: no-repeat;
+}
+
+.bg-emailverifi2-image{
+     background: url(https://svgshare.com/i/ND7.svg);
+     background-position: center;
+     background-size: 55%;
+     background-repeat: no-repeat;
+}
+
+.btn-user {
+     font-size: .8rem;
+     border-radius: 10rem;
+     padding: .75rem 1rem;
+ }
+
+
+
+@media screen and (max-width: 770px) {
+
+
+#recaptchaContainer{
+     transform:scale(0.7);
+     transform-origin:0 0;
+}
+
+.fb-login-button{
+     data-size:small;
+}
+
+}
+
+
